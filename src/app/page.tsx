@@ -7,6 +7,11 @@ export default function Home() {
       <p className="text-neutral-700">
         Restaurants & boutique hotels — I build sites that increase direct bookings and private-event leads.
       </p>
+
+      <span className="inline-block rounded-full bg-emerald-500 px-3 py-1 text-white text-xs">
+        Tailwind OK
+      </span>
+
       <ul className="list-disc pl-6 space-y-2">
         <li><a className="underline" href="/about">About</a></li>
         <li><a className="underline" href="/projects">Projects</a></li>
