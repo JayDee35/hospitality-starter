@@ -28,7 +28,35 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+import type { Metadata } from 'next';
+import './globals.css';
+
+export const metadata: Metadata = {
+  title: 'Hospitality Starter',
+  description: 'Restaurants & boutique hotels — direct bookings and event leads',
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className="antialiased">
+        <main className="mx-auto max-w-4xl px-4 py-8">{children}</main>
+
+        <footer className="border-t mt-12">
+          <div className="mx-auto max-w-4xl px-4 py-6 text-sm text-neutral-600">
+            © {new Date().getFullYear()} Jonathan Daudet — Hospitality Starter ·
+            <a
+              className="underline ml-2"
+              href="https://github.com/JayDee35/hospitality-starter#ship-log"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Week 1 Ship
+            </a>
+          </div>
+        </footer>
       </body>
     </html>
   );
 }
+
