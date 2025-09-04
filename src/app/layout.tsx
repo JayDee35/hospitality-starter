@@ -28,6 +28,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+
 import type { Metadata } from 'next';
 import './globals.css';
 
@@ -43,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main className="mx-auto max-w-4xl px-4 py-8">{children}</main>
 
         <footer className="border-t mt-12">
-          <div className="mx-auto max-w-4xl px-4 py-6 text-sm text-neutral-600">
+          <div className="mx-auto max-w-4xl px-4 py-6 text-sm text-neutral-400">
             © {new Date().getFullYear()} Jonathan Daudet — Hospitality Starter ·
             <a
               className="underline ml-2"
