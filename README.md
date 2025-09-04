@@ -38,3 +38,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Ship Log
 - Week 1: Live → https://YOUR-LIVE-URL
            Loom → (add link after recording)
+## Ship Log
+- Week 1: Live → https://hospitality-starter.vercel.app
+           Loom → https://www.loom.com/share/ce7ddca6175a4cc494cd7d06b12a8ed6?sid=508833c8-47ee-4dab-b68a-74c89dd2b32e
